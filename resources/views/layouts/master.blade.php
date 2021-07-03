@@ -16,8 +16,8 @@
     <!-- bootstrap css --> 
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <!-- style css -->
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <!-- <style>/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+    <!-- <link rel="stylesheet" href="{{ asset('css/style.css') }}"> -->
+    <style>/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
 
 
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
@@ -2314,7 +2314,7 @@ border-radius: 10px;
 
 .special-page .relative  {text-align:center !important; }
 
-.special-page .footer {margin-top: 90px;}</style> -->
+.special-page .footer {margin-top: 90px;}</style>
     <!-- Responsive-->
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
     <!-- fevicon -->
