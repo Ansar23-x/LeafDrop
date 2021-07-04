@@ -78,9 +78,10 @@
                                             <ul class="menu-area-main">
                                                 <li class="active"> <a href="#Home">Home</a> </li>
                                                 <li> <a href="#about">About</a> </li>
+                                                <li> <a href="#ofer">Documentation</a></li>
                                                 <li><a href="#product">Resources</a></li>
-                                                <li><a href="#testimonial">Testimonial</a></li>
-                                                <li><a href="#contact">Booking</a></li>
+                                                <li><a href="#testimonial">Team</a></li>
+                                                <li><a href="#footer">Booking</a></li>
 
                                             </ul>
                                         </nav>
@@ -117,7 +118,7 @@
                             <h1>LEAFDROP</h1>
                             <span>HIKING DISCOVER CORP</span>
 
-                            <p>Want to try backpacking but don’t know where to start? Our overnight tours emphasize learning and skill building. Tour price includes meals, permits, logistics planning, and gear. </p>
+                            <p>Ingin mencoba backpacking tetapi tidak tahu harus mulai dari mana? Tour semalam dengan kami menekankan pembelajaran dan pengembangan keterampilan. Harga tour sudah termasuk makan, izin, logistik, dan perlengkapan </p>
                             <a class="buynow" href="#about">About us</a>
 
                         </div>
@@ -130,7 +131,7 @@
                             <h1>LEAFDROP</h1>
                             <span>HIKING DISCOVER CORP</span>
 
-                            <p>Our primary goal is to lead safe trips and preserve our forests. Tours are led by a certified Wilderness First Responder and Leave No Trace (™) principles are followed. </p>
+                            <p>Tujuan utama kami adalah memimpin perjalanan yang aman dan melestarikan hutan kami. Tour dipimpin oleh Wilderness First Responder bersertifikat dan memegang prinsip Leave No Trace (™) . </p>
                             <a class="buynow" href="#about">About us</a>
 
                         </div>
@@ -143,7 +144,7 @@
                             <h1>LEAFDROP</h1>
                             <span>HIKING DISCOVER CORP</span>
 
-                            <p>Lightweight backpacks, tents, and sleeping bags/pads are available to rent and are included in tour price. We will schedule a zoom/phone session to go over gear selection to ensure everyone is prepared for our overnight trips. </p>
+                            <p>Ransel ringan, tenda, dan kantong tidur/bantalan tersedia untuk disewa dan sudah termasuk dalam harga tour. Kami akan menjadwalkan sesi zoom/telepon untuk membahas pemilihan peralatan guna memastikan semua orang siap untuk perjalanan semalam dengan kami. </p>
                             <a class="buynow" href="#about">About us</a>
 
                         </div>
@@ -167,9 +168,12 @@
                 <div class="col-xl-5 col-lg-5 col-md-5 co-sm-l2">
                     <div class="about_box">
                         <h2>About leafdrop<br><strong class="black"> Hiking discover corp</strong></h2>
-                        <p>Leafdrop Corp's mission is to make the wilderness accessible and enjoyable for everyone.  We believe the trail is there for everyone at every phase of life and we welcome all hikers, regardless of their background or ability level.
-						We strive to provide safe on-trail experience with engaging, knowledgeable, and well-trained guides. We embrace and encourages diversity on the trail and we follow Leave No Trace principles.
-						All of Leafdrop corp's guides are certified in Wilderness First Aid (or higher) and CPR.</p>
+                        <p>Misi Leafdrop Corp adalah membuat hutan belantara dapat diakses dan menyenangkan bagi semua orang. 
+                        Kami percaya jalan setapak ada untuk semua orang di setiap fase kehidupan dan kami menyambut semua pejalan kaki, 
+                        terlepas dari latar belakang atau tingkat kemampuan mereka. Kami berusaha keras untuk memberikan pengalaman on-trail yang aman 
+                        dengan pemandu yang menarik, berpengetahuan luas, dan terlatih dengan baik. Kami merangkul dan mendorong keragaman di jalan 
+                        dan kami mengikuti prinsip-prinsip Leave No Trace. Semua panduan Leafdrop corp disertifikasi dalam Pertolongan Pertama Wilderness 
+                        (atau lebih tinggi) dan CPR.</p>
                         <a href="#">Read More</a>
                     </div>
                 </div>
@@ -190,28 +194,28 @@
                     <div class="for_box">
                         <i><img src="{{ asset('images/1.png') }}" alt="#"/></i>
                         <span>>100</span>
-                        <h3>Destination</h3>
+                        <h3>Destinasi</h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
                     <div class="for_box">
                         <i><img src="{{ asset('images/2.png') }}" alt="#"/></i>
                         <span>360'</span>
-                        <h3>Degrees of View</h3>
+                        <h3>Derajat Pandangan</h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
                     <div class="for_box">
                         <i><img src="{{ asset('images/3.png') }}" alt="#"/></i>
                         <span>10</span>
-                        <h3>Years of Exp</h3>
+                        <h3>Tahun Pengalaman</h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
                     <div class="for_box">
                         <i><img src="{{ asset('images/4.png') }}" alt="#"/></i>
                         <span>87</span>
-                        <h3>Trained Guides</h3>
+                        <h3>Pemandu professional</h3>
                     </div>
                 </div>
             </div>
@@ -219,12 +223,12 @@
     </div>
     <!-- end for_box -->
     <!-- offer -->
-    <div class="offer">
+    <div id="ofer" class="offer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="title">
-                        <h2>Special <strong class="black"> Offers</strong></h2>
+                        <h2>Spesial <strong class="black"> Documentasi</strong></h2>
                     </div>
                 </div>
             </div>
@@ -234,24 +238,24 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
                         <div class="offer_box">
-                            <h3>Guided Waterfall Hike</h3>
+                            <h3>Air Terjun</h3>
                             <figure><img src="{{ asset('images/offer1.jpg') }}" alt="img" /></figure>
-                            <p>Join us for a waterfall hiking tour and see some of the Indonesia's famous waterfalls! You'll enjoy a 3-5 mile hike, featuring one or more waterfalls (depending on the location)</p>
+                            <p>tempat air terjun terindah untuk melepas penat kerja</p>
 
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin_ttt">
                         <div class="offer_box">
-                            <h3>Privately Sunset Hike</h3>
+                            <h3>Puncak</h3>
                             <figure><img src="{{ asset('images/offer2.jpg') }}" alt="img" /></figure>
-                            <p>Join us for an evening hike featuring one of the most beautiful aspects of our area - our sunset! Snacks are provided while we watch sunset.</p>
+                            <p>setelah mendaki yang menguras tenaga akan terbayarkan dengan memandang sunset yang indah</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin-lkk">
                         <div class="offer_box">
-                            <h3>Tours for Beginner</h3>
+                            <h3>Tour Pemula</h3>
                             <figure><img src="{{ asset('images/offer3.jpg') }}" alt="img" /></figure>
-                            <p>Tours that designed for beginner, but are beautiful enough that even the most seasoned hiker will have a great time!</p>
+                            <p>dikhususkan untuk yang baru memulai mendaki, tetapi pemandangannya tidak kalah cantik</p>
                         </div>
                     </div>
 
@@ -286,20 +290,20 @@
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div class="product_box">
                                 <figure><img src="{{ asset('images/menu1.jpg') }}" alt="#" />
-                                    <h3>Rental Gear </h3></figure>
+                                    <h3>Penyewaan Perlengkapan </h3></figure>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div class="product_box">
                                 <figure><img src="{{ asset('images/menu2.jpg') }}" alt="#" />
-                                    <h3>Backpacking Breakfast  </h3>
+                                    <h3>Logistik  </h3>
                                 </figure>
                             </div>
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                             <div class="product_box">
                                 <figure><img src="{{ asset('images/menu3.jpg') }}" alt="#" />
-                                    <h3>Footwear for Happy Hiking Feet! </h3></figure>
+                                    <h3>Sepatu untuk mendaki yang nyaman </h3></figure>
                             </div>
                         </div>
                     </div>
@@ -309,13 +313,13 @@
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                             <div class="product_box">
                                 <figure><img src="{{ asset('images/menu4.jpg') }}" alt="#" />
-                                    <h3>Guide for physical prepare</h3></figure>
+                                    <h3>Panduan dalam Pendakian</h3></figure>
                             </div>
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                             <div class="product_box">
                                 <figure><img src="{{ asset('images/menu5.jpg') }}" alt="#" />
-                                    <h3>Gear List </h3></figure>
+                                    <h3> List Perlengkapan</h3></figure>
                             </div>
                         </div>
                     </div>
@@ -332,7 +336,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="title">
-                        <h2>testimonial</h2>
+                        <h2>Team</h2>
                     </div>
                 </div>
             </div>
@@ -345,7 +349,7 @@
     <!-- end clients -->
     <!-- contact -->
 
-    <div id="contact" class="contact">
+    <!-- <div id="contact" class="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -391,22 +395,25 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
 
    
     <!-- end contact -->
 
+    <br>
+        </br>
+
     <!-- footer -->
     <!--  footer -->
     <footr>
-        <div class="footer top_layer ">
+        <div id= "footer" class="footer top_layer ">
             <div class="container">
 
                 <div class="row">
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="address">
                             <a href="#Home"> <img src="{{ asset('images/logo.png') }}" alt="logo" /></a>
-                            <p>Our primary goal is to lead safe trips and preserve our forests. Tours are led by a certified Wilderness First Responder and Leave No Trace (™) principles are followed. </p>
+                            <p>Tujuan utama kami adalah memimpin perjalanan yang aman dan melestarikan hutan kami. Tour dipimpin oleh Wilderness First Responder bersertifikat dan memegang prinsip Leave No Trace (™) </p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
@@ -417,7 +424,7 @@
                                 <li><img src="{{ asset('icon/3.png') }}" alt="#" /> <a href="#">Maintenance</a> </li>
                                 <li><img src="{{ asset('icon/3.png') }}" alt="#" /> <a href="#">Language Packs</a> </li>
                                 <li><img src="{{ asset('icon/3.png') }}" alt="#" /> <a href="#">LearnPress</a> </li>
-                                <li><img src="{{ asset('icon/3.png') }}" alt="#" /> <a href="#">Booking</a> </li>
+                                <!-- <li><img src="{{ asset('icon/3.png') }}" alt="#" /> <a href="#">Booking</a> </li> -->
                             </ul>
                         </div>
                     </div>
@@ -425,7 +432,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="address">
                             <h3>Subcribe email</h3>
-                            <p>To get our latest information, please enter your e-mail :</p>
+                            <p>Untuk mendapatkan informasi terbaru kami, masukkan e-mailmu : </p>
                             <input class="form-control" placeholder="Your Email" type="type" name="Your Email">
                             <button class="submit-btn">Submit</button>
                         </div>
@@ -433,7 +440,7 @@
 
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="address">
-                            <h3>Contact Us</h3>
+                            <h3>Kontak kami</h3>
 
                             <ul class="loca">
                                 <li>
@@ -464,7 +471,7 @@
     <!-- javascript -->
     <script src="{{ asset('js/owl.carousel.js') }}"></script>
     <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-    <script>
+    <!-- <script>
         $(document).ready(function() {
             $(".fancybox").fancybox({
                 openEffect: "none",
@@ -500,9 +507,9 @@
                 icon: image
             });
         }
-    </script>
+    </script> -->
     <!-- google map js -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script> -->
     <!-- end google map js -->
     @stack('script')
 </body>
